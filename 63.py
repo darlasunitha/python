@@ -1,2 +1,2 @@
-list=[int(x) for x in raw_input().split()] 
+list=[int(k) for k in raw_input().split()] 
 print min(list)
