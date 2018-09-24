@@ -1,2 +1,2 @@
-j=raw_input()
-print j
+m=raw_input()
+print m
