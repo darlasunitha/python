@@ -1,7 +1,7 @@
-n=int(raw_input())
-if n>0:
-    for i in range(2,n):
-        if(n%i)==0:
+num=int(raw_input())
+if num>0:
+    for j in range(2,num):
+        if(num%j)==0:
             print "no"
             break
     else:
