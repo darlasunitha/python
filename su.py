@@ -1,2 +1,2 @@
-n =int(raw_input())
-print (n * 2)
+num =int(raw_input())
+print (num * 2)
