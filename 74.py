@@ -1,3 +1,3 @@
-n=float(raw_input())
-m=int(round(n+1))
-print m
+p=float(raw_input())
+q=int(round(p+1))
+print q
