@@ -1,6 +1,6 @@
-m=raw_input()
-v=m[::-1]
-if m== v:
+q=raw_input()
+k=q[::-1]
+if q== k:
        print("yes")
 else:
        print("no")
