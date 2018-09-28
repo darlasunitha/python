@@ -1,20 +1,20 @@
 # function which return reverse of a string 
-def reverse(n): 
-    return n[::-1] 
+def reverse(p): 
+    return p[::-1] 
   
-def isPalindrome(n): 
+def isPalindrome(p): 
     # Calling reverse function 
-    rev = reverse(n) 
+    rev = reverse(p) 
   
     # Checking if both string are equal or not 
-    if (n == rev): 
+    if (p == rev): 
         return True
     return False
   
   
 # Driver code 
-n = raw_input()
-ans = isPalindrome(n) 
+p = raw_input()
+ans = isPalindrome(p) 
   
 if ans == 1: 
     print("yes") 
