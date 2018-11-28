@@ -1,6 +1,6 @@
 def do_stuff(input):
-	m,n = [int(x) for x in input.split(" ")]
-	print(n-m)
+	p,q = [int(y) for y in input.split(" ")]
+	print(q-p)
 while True:
   try:
     value = raw_input()
