@@ -1,6 +1,6 @@
-s = raw_input().rstrip()
+num = raw_input().rstrip()
 digits = []
-for c in s:
-	if c.isdigit():
-		digits.append(c)
+for k in num:
+	if k.isdigit():
+		digits.append(k)
 print("".join(digits))
