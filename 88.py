@@ -1,10 +1,10 @@
 a,b=map(int,raw_input().split())
 if(a>b):
-    min1=a
+    min=a
 else:
-    min1=b
+    min=b
 while(1):
-    if(min1%a==0 and min1%b==0):
-        print(min1)
+    if(min%a==0 and min%b==0):
+        print(min)
         break
-    min1=min1+1
+    min=min+1
